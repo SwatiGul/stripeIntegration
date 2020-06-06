@@ -1,5 +1,5 @@
 1. Install node.js from: https://nodejs.org/en/download/
->> To ensure that node.js is installed, open powershell or command prompt and type 
+> To ensure that node.js is installed, open powershell or command prompt and type 
 ```
 node -v
 ```
@@ -13,15 +13,15 @@ npx create-react-app my-app
 ```
 npm start
 ```
->> Test launching the app http://localhost:3000/
+> Test launching the app http://localhost:3000/
 
-4.Install stripe package
+4. Install stripe package
 ```
 npm install --save stripe
 ```
->>Make sure to check stripe module is added under my-app\node modules folder
+> Make sure to check stripe module is added under my-app\node modules folder
 
-5.Copy and add/replace all files from github repo to my-app folder.
+5. Copy and add/replace all files from github repo to my-app folder.
 server.js
 client.js
 package
