@@ -63,8 +63,7 @@ catch (err) {
   switch (event.type) {
     case 'payment_intent.succeeded':
       const paymentIntent = event.data.object;
-      console.log(paymentIntent);
-	  console.log("Processing the customer with payment Intent Id- "+ paymentIntent.id);
+      console.log("Processing the customer with payment Intent Id- "+ paymentIntent.id);
       break;
         // Handle other event types as needed
       default:
