@@ -26,13 +26,13 @@ npm install --save stripe
 > Make sure to check stripe module is added under my-app\node modules folder
 
 5. Copy and add/replace all files from github repo to my-app folder.
--server.js
--client.js
--package
--package-lock
--checkout.html
--global.css
--README
+- server.js
+- client.js
+- package
+- package-lock
+- checkout.html
+- global.css
+- README
 
 
 6. Start the server
