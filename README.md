@@ -46,7 +46,7 @@ npm start
 
    PS: A logfile will be created under my-app folder for any successful payment- successfulPayments_Log.
 
-9. To test the endpoint for processing orders for successful payments, first install Stripe CLI using the documentation:
+9. To test the endpoint for processing orders asynchronously for successful payments, first install Stripe CLI using the documentation:
    https://stripe.com/docs/stripe-cli
 
    Now run following commands in the command prompt with current directory being where Stripe CLI is installed:
