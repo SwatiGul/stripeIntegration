@@ -49,7 +49,7 @@ app.post("/log-successful-payment", async (req, res) => {
 });
 
 
-// Webhook to process orders post successful payments
+// Webhook to process orders asynchronously post successful payments
 app.post("/processOrders", bodyParser.raw({type: 'application/json'}), (request, response) => {
   let event;
   try {
