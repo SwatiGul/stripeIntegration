@@ -1,5 +1,5 @@
 1. Install node.js from: https://nodejs.org/en/download/
->> To ensure that node.js is installed, open powershell or command prompt and type 
+> To ensure that node.js is installed, open powershell or command prompt and type 
 
 ```
 node -v
@@ -16,23 +16,23 @@ npx create-react-app my-app
 ```
 npm start
 ```
->> Test launching the app http://localhost:3000/
+> Test launching the app http://localhost:3000/
 
 4.Install stripe package
 
 ```
 npm install --save stripe
 ```
->>Make sure to check stripe module is added under my-app\node modules folder
+> Make sure to check stripe module is added under my-app\node modules folder
 
 5.Copy and add/replace all files from github repo to my-app folder.
-server.js
-client.js
-package
-package-lock
-checkout.html
-global.css
-README
+-server.js
+-client.js
+-package
+-package-lock
+-checkout.html
+-global.css
+-README
 
 
 6. Start the server
@@ -68,7 +68,7 @@ c. In a new terminal trigger the payment_intent.succeeded event to test the flow
 stripe trigger payment_intent.succeeded
 ```
 
->Test that the command prompt where you typed listen command (step b. above) something like following should be shown:
+> Verify that the command prompt where you typed listen command (step b. above) something like following should be shown:
 Ready! Your webhook signing secret is whsec_Bh70XBMyijH8RtV6FW9anlll6RavdmNs (^C to quit)
 2020-06-04 22:46:23   --> payment_intent.succeeded [evt_1GrHKsDpS0vvbzrvZ0V5R4Dc]
 2020-06-04 22:46:23  <--  [200] POST http://localhost:4242/processOrders [evt_1GrHKsDpS0vvbzrvZ0V5R4Dc]
