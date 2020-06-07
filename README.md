@@ -51,14 +51,14 @@ https://stripe.com/docs/stripe-cli
 
 Now run following commands in the command prompt with current directory being where Stripe CLI is installed:
 
-a. 
+a. Pair Stripe CLI with your stripe account
 ```
-stripe pairing
+stripe login
 ```
 Follow the instructions to open the browser and allow access to complete the pairing. 
 
 
-b.Now listen to all the payment_intent.succeeded events and forward to the webhook-processOrders for async fulfilment.
+b. Now listen to all the payment_intent.succeeded events and forward to the webhook-processOrders for async fulfilment.
 ```
 stripe listen --events payment_intent.succeeded --forward-to localhost:4242/processOrders
 ```
